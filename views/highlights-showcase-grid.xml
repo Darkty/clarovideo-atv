@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<atv>
+
+    <head>
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/main.js" />
+    </head>
+
+    <body>
+        <scroller id="com.sample.movie-showcase-grid">
+            <header>
+                <simpleHeader accessibilityLabel="Movie showcase">
+                    <title>Destacados</title>
+                    <image required="true" src1080="http://mcbkairrulo.local/clarovideo-atv/images/1080p/logo_interior.png" src720="http://mcbkairrulo.local/clarovideo-atv/images/720p/logo_interior.png" />
+                </simpleHeader>
+            </header>
+            <items>
+                <showcase accessibilityLabel="Showcase movies" id="showcase_1">
+                    <initialSelection>
+                        <indexPath>
+                            <index>3</index>
+                        </indexPath>
+                    </initialSelection>
+                    <items>
+                        <showcasePoster id="showcase_item_1" accessibilityLabel="Showcase item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                            <image src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/Showcase-1.png" src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/Showcase-1.png" />
+                            <defaultImage>resource://Poster.png</defaultImage>
+                        </showcasePoster>
+                        <showcasePoster id="showcase_item_2" accessibilityLabel="Showcase item 2" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                            <image src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/Showcase-2.png" src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/Showcase-2.png" />
+                            <defaultImage>resource://Poster.png</defaultImage>
+                        </showcasePoster>
+                        <showcasePoster id="showcase_item_3" accessibilityLabel="Showcase item 3" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                            <image src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/Showcase-3.png" src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/Showcase-3.png" />
+                            <defaultImage>resource://Poster.png</defaultImage>
+                        </showcasePoster>
+                        <showcasePoster id="showcase_item_4" accessibilityLabel="Showcase item 4" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                            <image src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/Showcase-4.png" src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/Showcase-4.png" />
+                            <defaultImage>resource://Poster.png</defaultImage>
+                        </showcasePoster>
+                        <showcasePoster id="showcase_item_5" accessibilityLabel="Showcase item 5" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                            <image src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/Showcase-5.png" src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/Showcase-5.png" />
+                            <defaultImage>resource://Poster.png</defaultImage>
+                        </showcasePoster>
+                    </items>
+                </showcase>
+                <collectionDivider alignment="left" accessibilityLabel="Recommendations">
+                    <title>Clarovideo te recomienda</title>
+                </collectionDivider>
+                <shelf id="shelf_0" columnCount="5">
+                    <sections>
+                        <shelfSection>
+                            <items>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+                <collectionDivider alignment="left" accessibilityLabel="My list">
+                    <title>Mi Lista</title>
+                </collectionDivider>
+                <shelf id="shelf_1">
+                    <sections>
+                        <shelfSection>
+                            <items>
+                                <moviePoster id="shelf_item_1" accessibilityLabel="Shelf item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_2" accessibilityLabel="Shelf item 2" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 2</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_3" accessibilityLabel="Shelf item 3" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 3</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_4" accessibilityLabel="Shelf item 4" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 4</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_5" accessibilityLabel="Shelf item 5" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 5</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_6" accessibilityLabel="Shelf item 6" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 6</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_7" accessibilityLabel="Shelf item 7" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 7</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_8" accessibilityLabel="Shelf item 8" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 8</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_9" accessibilityLabel="Shelf item 9" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 9</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_10" accessibilityLabel="Shelf item 10" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 10</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_11" accessibilityLabel="Shelf item 11" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 11</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_12" accessibilityLabel="Shelf item 12" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 12</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_13" accessibilityLabel="Shelf item 13" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 13</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_14" accessibilityLabel="Shelf item 14" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 14</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_15" accessibilityLabel="Shelf item 15" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 15</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_16" accessibilityLabel="Shelf item 16" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 16</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_17" accessibilityLabel="Shelf item 17" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 17</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_18" accessibilityLabel="Shelf item 18" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 18</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_19" accessibilityLabel="Shelf item 19" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 19</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_20" accessibilityLabel="Shelf item 20" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 20</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_21" accessibilityLabel="Shelf item 21" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 21</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_22" accessibilityLabel="Shelf item 22" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 22</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_23" accessibilityLabel="Shelf item 23" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 23</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_24" accessibilityLabel="Shelf item 24" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 24</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_25" accessibilityLabel="Shelf item 25" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 25</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_26" accessibilityLabel="Shelf item 26" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 26</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_27" accessibilityLabel="Shelf item 27" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 27</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_28" accessibilityLabel="Shelf item 28" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 28</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_29" accessibilityLabel="Shelf item 29" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 29</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_30" accessibilityLabel="Shelf item 30" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 30</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_31" accessibilityLabel="Shelf item 31" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 31</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_32" accessibilityLabel="Shelf item 32" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 32</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_33" accessibilityLabel="Shelf item 33" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 33</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_34" accessibilityLabel="Shelf item 34" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 34</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_35" accessibilityLabel="Shelf item 35" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 35</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_36" accessibilityLabel="Shelf item 36" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 36</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_37" accessibilityLabel="Shelf item 37" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 37</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_38" accessibilityLabel="Shelf item 38" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 38</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_39" accessibilityLabel="Shelf item 39" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 39</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_40" accessibilityLabel="Shelf item 40" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 40</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_41" accessibilityLabel="Shelf item 41" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 41</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_42" accessibilityLabel="Shelf item 42" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 42</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_43" accessibilityLabel="Shelf item 43" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 43</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_44" accessibilityLabel="Shelf item 44" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 44</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_45" accessibilityLabel="Shelf item 45" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 45</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_46" accessibilityLabel="Shelf item 46" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 46</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_47" accessibilityLabel="Shelf item 47" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 47</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_48" accessibilityLabel="Shelf item 48" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 48</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_49" accessibilityLabel="Shelf item 49" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 49</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_50" accessibilityLabel="Shelf item 50" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 50</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="more" accessibilityLabel="more" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Ver completo</title>
+                                    <subtitle>Dramas</subtitle>
+                                    <image>resource://More.png</image>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <!-- <focusedImage>resource://MoreFocused.png</focusedImage> -->
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+                <collectionDivider alignment="left" accessibilityLabel="Movies for rent">
+                    <title>Peliculas en renta</title>
+                </collectionDivider>
+                <shelf id="shelf_3">
+                    <sections>
+                        <shelfSection>
+                            <items>
+                                <moviePoster id="shelf_item_1" accessibilityLabel="Shelf item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_2" accessibilityLabel="Shelf item 2" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 2</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_3" accessibilityLabel="Shelf item 3" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 3</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_4" accessibilityLabel="Shelf item 4" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 4</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_5" accessibilityLabel="Shelf item 5" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 5</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_6" accessibilityLabel="Shelf item 6" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 6</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_7" accessibilityLabel="Shelf item 7" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 7</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_8" accessibilityLabel="Shelf item 8" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 8</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_9" accessibilityLabel="Shelf item 9" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 9</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_10" accessibilityLabel="Shelf item 10" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 10</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_11" accessibilityLabel="Shelf item 11" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 11</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_12" accessibilityLabel="Shelf item 12" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 12</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_13" accessibilityLabel="Shelf item 13" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 13</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_14" accessibilityLabel="Shelf item 14" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 14</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_15" accessibilityLabel="Shelf item 15" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 15</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_16" accessibilityLabel="Shelf item 16" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 16</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_17" accessibilityLabel="Shelf item 17" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 17</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_18" accessibilityLabel="Shelf item 18" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 18</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_19" accessibilityLabel="Shelf item 19" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 19</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_20" accessibilityLabel="Shelf item 20" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 20</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_21" accessibilityLabel="Shelf item 21" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 21</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_22" accessibilityLabel="Shelf item 22" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 22</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_23" accessibilityLabel="Shelf item 23" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 23</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_24" accessibilityLabel="Shelf item 24" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 24</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_25" accessibilityLabel="Shelf item 25" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 25</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_26" accessibilityLabel="Shelf item 26" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 26</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_27" accessibilityLabel="Shelf item 27" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 27</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_28" accessibilityLabel="Shelf item 28" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 28</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_29" accessibilityLabel="Shelf item 29" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 29</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_30" accessibilityLabel="Shelf item 30" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 30</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_31" accessibilityLabel="Shelf item 31" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 31</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_32" accessibilityLabel="Shelf item 32" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 32</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_33" accessibilityLabel="Shelf item 33" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 33</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_34" accessibilityLabel="Shelf item 34" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 34</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_35" accessibilityLabel="Shelf item 35" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 35</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_36" accessibilityLabel="Shelf item 36" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 36</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_37" accessibilityLabel="Shelf item 37" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 37</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_38" accessibilityLabel="Shelf item 38" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 38</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_39" accessibilityLabel="Shelf item 39" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 39</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_40" accessibilityLabel="Shelf item 40" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 40</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_41" accessibilityLabel="Shelf item 41" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 41</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_42" accessibilityLabel="Shelf item 42" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 42</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_43" accessibilityLabel="Shelf item 43" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 43</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_44" accessibilityLabel="Shelf item 44" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 44</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_45" accessibilityLabel="Shelf item 45" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 45</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_46" accessibilityLabel="Shelf item 46" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 46</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_47" accessibilityLabel="Shelf item 47" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 47</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_48" accessibilityLabel="Shelf item 48" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 48</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_49" accessibilityLabel="Shelf item 49" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 49</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_50" accessibilityLabel="Shelf item 50" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 50</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+                <collectionDivider alignment="left" accessibilityLabel="Suggestions for you">
+                    <title>Sugerencias para tí</title>
+                </collectionDivider>
+                <shelf id="shelf_4" columnCount="5">
+                    <sections>
+                        <shelfSection>
+                            <items>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="item_0_1" accessibilityLabel="Poster item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <!-- <subtitle>Subtitle</subtitle> -->
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/featured-movie1.png" />
+                                    <defaultImage>resource://16x9.png</defaultImage>
+                                </sixteenByNinePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+                <collectionDivider alignment="left" accessibilityLabel="Best series">
+                    <title>Las mejores series</title>
+                </collectionDivider>
+                <shelf id="shelf_5">
+                    <sections>
+                        <shelfSection>
+                            <items>
+                                <moviePoster id="shelf_item_1" accessibilityLabel="Shelf item 1" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 1</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_2" accessibilityLabel="Shelf item 2" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 2</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_3" accessibilityLabel="Shelf item 3" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 3</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_4" accessibilityLabel="Shelf item 4" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 4</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_5" accessibilityLabel="Shelf item 5" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 5</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_6" accessibilityLabel="Shelf item 6" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 6</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_7" accessibilityLabel="Shelf item 7" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 7</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_8" accessibilityLabel="Shelf item 8" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 8</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_9" accessibilityLabel="Shelf item 9" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 9</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_10" accessibilityLabel="Shelf item 10" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 10</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_11" accessibilityLabel="Shelf item 11" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 11</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_12" accessibilityLabel="Shelf item 12" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 12</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_13" accessibilityLabel="Shelf item 13" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 13</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_14" accessibilityLabel="Shelf item 14" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 14</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_15" accessibilityLabel="Shelf item 15" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 15</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_16" accessibilityLabel="Shelf item 16" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 16</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_17" accessibilityLabel="Shelf item 17" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 17</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_18" accessibilityLabel="Shelf item 18" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 18</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_19" accessibilityLabel="Shelf item 19" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 19</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_20" accessibilityLabel="Shelf item 20" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 20</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_21" accessibilityLabel="Shelf item 21" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 21</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_22" accessibilityLabel="Shelf item 22" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 22</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_23" accessibilityLabel="Shelf item 23" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 23</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_24" accessibilityLabel="Shelf item 24" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 24</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_25" accessibilityLabel="Shelf item 25" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 25</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_26" accessibilityLabel="Shelf item 26" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 26</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_27" accessibilityLabel="Shelf item 27" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 27</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_28" accessibilityLabel="Shelf item 28" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 28</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_29" accessibilityLabel="Shelf item 29" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 29</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_30" accessibilityLabel="Shelf item 30" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 30</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_31" accessibilityLabel="Shelf item 31" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 31</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_32" accessibilityLabel="Shelf item 32" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 32</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_33" accessibilityLabel="Shelf item 33" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 33</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_34" accessibilityLabel="Shelf item 34" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 34</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_35" accessibilityLabel="Shelf item 35" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 35</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_36" accessibilityLabel="Shelf item 36" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 36</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_37" accessibilityLabel="Shelf item 37" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 37</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_38" accessibilityLabel="Shelf item 38" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 38</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_39" accessibilityLabel="Shelf item 39" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 39</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_40" accessibilityLabel="Shelf item 40" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 40</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_41" accessibilityLabel="Shelf item 41" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 41</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_42" accessibilityLabel="Shelf item 42" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 42</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_43" accessibilityLabel="Shelf item 43" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 43</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_44" accessibilityLabel="Shelf item 44" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 44</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_45" accessibilityLabel="Shelf item 45" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 45</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_46" accessibilityLabel="Shelf item 46" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 46</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_47" accessibilityLabel="Shelf item 47" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 47</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_48" accessibilityLabel="Shelf item 48" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 48</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_49" accessibilityLabel="Shelf item 49" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 49</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                                <moviePoster id="shelf_item_50" accessibilityLabel="Shelf item 50" onSelect="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/views/movie.xml');" onPlay="atvutils.loadURL('http://mcbkairrulo.local/clarovideo-atv/video/file-video-player.xml');">
+                                    <title>Movie 50</title>
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/dummy/720p/movie1.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/dummy/1080p/movie1.png" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+            </items>
+        </scroller>
+    </body>
+</atv>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<atv>
+
+    <head>
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/main.js" />
+    </head>
+
+    <body>
+        <viewWithNavigationBar id="com.sample.navigation-bar">
+			<navigation currentIndex="0">
+				<navigationItem id="nav1">
+					<title>Clarovideo</title>
+					<url>http://mcbkairrulo.local/clarovideo-atv/views/highlights-showcase-grid.xml</url>
+				</navigationItem>
+				<navigationItem id="nav2">
+					<title>Catálogo</title>
+					<url>http://mcbkairrulo.local/clarovideo-atv/views/catalog-showcase-menu.xml</url>
+				</navigationItem>
+				<navigationItem id="nav3">
+					<title>Búsqueda</title>
+					<url>http://mcbkairrulo.local/clarovideo-atv/views/search.xml</url>
+				</navigationItem>
+				<navigationItem id="nav4">
+					<title>Mi Cuenta</title>
+					<url>http://mcbkairrulo.local/clarovideo-atv/views/my-account-showcase-menu.xml</url>
+				</navigationItem>
+			</navigation>
+		</viewWithNavigationBar>
+    </body>
+</atv>

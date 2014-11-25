@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<atv>
+
+    <head>
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/main.js" />
+    </head>
+    <body>
+        <search id="com.sample.search">
+            <header>
+                <simpleHeader accessibilityLabel="Search example">
+                    <title>Búsqueda</title>
+                    <image required="true" src1080="http://mcbkairrulo.local/clarovideo-atv/images/1080p/logo_interior.png" src720="http://mcbkairrulo.local/clarovideo-atv/images/720p/logo_interior.png" />
+                </simpleHeader>
+            </header>
+            <baseURL>http://mcbkairrulo.local/clarovideo-atv/views/search-results.php?searchTerm=</baseURL>
+        </search>
+    </body>
+</atv>

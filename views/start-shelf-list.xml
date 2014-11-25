@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<atv>
+
+    <head>
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/main.js" />
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/login.js" />
+    </head>
+
+    <body>
+        <shelfList id="com.sample.self-list">
+            <header>
+                <simpleHeader accessibilityLabel="Shelf list">
+                    <image required="true" src720="http://mcbkairrulo.local/clarovideo-atv/images/720p/logos_login.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/1080p/logos_login.png"></image>
+                </simpleHeader>
+            </header>
+            <centerShelf>
+                <shelf id="shelf_0">
+                    <sections>
+                        <shelfSection>
+                            <items>
+                                <goldenPoster id="shelf_item_1" accessibilityLabel="Shelf item number one">
+                                    <image src720="http://mcbkairrulo.local/clarovideo-atv/images/start_cover@720.png" src1080="http://mcbkairrulo.local/clarovideo-atv/images/start_cover@1080.png"></image>
+                                    <title> </title>
+                                </goldenPoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+            </centerShelf>
+            <menu>
+                <initialSelection>
+                    <row>0</row>
+                </initialSelection>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="list_0" accessibilityLabel="Register" onSelect="showTextEntryRegister();">
+                                <label>Regístrate</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="list_1" accessibilityLabel="Login" onSelect="showTextEntryUsernameLogin();">
+                                <label>Ingresa con tu cuenta</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </shelfList>
+    </body>
+</atv>

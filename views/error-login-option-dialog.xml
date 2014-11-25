@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<atv>
+
+    <head>
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/main.js" />
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/login.js" />
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/error-login.js" />
+    </head>
+
+    <body>
+        <optionDialog id="com.sample.error-dialog">
+            <header>
+                <simpleHeader accessibilityLabel="Dialog with Options">
+                    <title>No se puede ingresar</title>
+                </simpleHeader>
+            </header>
+            <description>El correo electrónico o contraseña que has ingresado no es la que está guardado en nuestro sistema. Recuerda que la contraseña puede tener mayúsculas o minúsculas. 
+            
+            ¿Necesitas ayuda para entrar? Visita www.clarovideo.com 
+            (ATV-ui92)
+            </description>
+            <menu>
+                <initialSelection>
+                    <row>1</row>
+                </initialSelection>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="list_0" accessibilityLabel="Cancel" onSelect="console.log('Option 1 selected'); atv.unloadPage();">
+                                <label>OK</label>
+                            </oneLineMenuItem>
+                            <!-- <oneLineMenuItem id="list_0" accessibilityLabel="Cancel" onSelect="console.log('Option 1 selected'); atv.unloadPage();">
+                                <label>Cancelar</label>
+                            </oneLineMenuItem> -->
+                            <!-- <oneLineMenuItem id="list_0" accessibilityLabel="Retry" onSelect="console.log('Option 2 selected'); showTextEntryUsernameLogin();">
+                                <label>Volver a intentar</label>
+                            </oneLineMenuItem> -->
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </optionDialog>
+    </body>
+</atv>

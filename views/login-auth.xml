@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<atv>
+
+    <head>
+        <script src="http://mcbkairrulo.local/clarovideo-atv/js/main.js" />
+    </head>
+
+    <body>
+        <!-- <authentication id="authentication-id" accountName-Title="Title" accountName-Instructions="Instructions" accountName-Label="name label" accountName-Footnote="name footnote" accountPassword-Title="pass title" accountPassword-Instructions="Ins pass" accountPassword-Label="label pass" failureTitle="fail" failure-Instructions="fail ins" > -->
+        <authentication id="authentication-id" >
+            <image required="true" src1080="http://mcbkairrulo.local/clarovideo-atv/images/1080p/logo_interior.png" src720="http://mcbkairrulo.local/clarovideo-atv/images/720p/logo_interior.png" />
+            <!-- <accountName-Title>Title</accountName-Title>
+            <accountName-Instructions>instructions</accountName-Instructions>
+            <accountName-Label>name label</accountName-Label>
+            <accountName-Footnote>name footnote</accountName-Footnote>
+            <accountPassword-Title>pass title</accountPassword-Title>
+            <accountPassword-Instructions>pass isntructions</accountPassword-Instructions>
+            <accountPassword-Label>pass label</accountPassword-Label>
+            <connection-String></connection-String>
+            <failureTitle>fail title</failureTitle>
+            <failure-Instructions>fail instructions</failure-Instructions>
+            <urlToLoadAfterLogin>http://mcbkairrulo.local/clarovideo-atv/views/main.xml</urlToLoadAfterLogin> -->
+        </authentication>
+    </body>
+</atv>

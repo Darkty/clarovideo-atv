@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>javascript-url</key>
+	<string>http://localhost/clarovideo-atv/js/application.js</string>
+	<key>root-url</key>
+	<string>http://localhost/clarovideo-atv/views/start-shelf-list.xml</string>
+	<!-- 
+	<string>http://localhost/clarovideo-atv/views/main.xml</string>
+	-->
+	<key>auth-type</key>
+	<string>js</string>
+	<key>enabled</key>
+	<string>YES</string>
+	<key>menu-title</key>
+	<string>Clarovideo</string>
+	<key>merchant</key>
+	<string>sample-upnext</string>
+	<key>menu-icon-url</key>
+	<dict>
+		<key>720</key>
+		<string>http://localhost/clarovideo-atv/icon/clarovideo@720.png</string>
+		<key>1080</key>
+		<string>http://localhost/clarovideo-atv/icon/clarovideo@1080.png</string>
+	</dict>
+	<key>menu-icon-url-version</key>
+	<string>1.0</string>
+</dict>
+</plist>

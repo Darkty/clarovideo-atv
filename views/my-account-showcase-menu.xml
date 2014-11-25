@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<atv>
+
+    <head>
+        <!--<script src="http://mcbkairrulo.local/clarovideo-atv/js/main.js" />-->
+    </head>
+
+    <body>
+        <listWithPreview id="com.sample.previews">
+            <header>
+                <simpleHeader accessibilityLabel="Previews">
+                    <title>Mi cuenta</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="list_0" accessibilityLabel="Keyed preview with square artwork">
+                                <label>Mis videos</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="list_1" accessibilityLabel="Keyed Preview with Movie Poster Artwork">
+                                <label>Ajustes</label>
+                                <accessories>
+                                    <arrow/>
+                                </accessories>
+                            </oneLineMenuItem>
+
+                            <oneLineMenuItem id="list_2" accessibilityLabel="Keyed Preview with 16x9 Artwork">
+                                <label>Salir</label>
+                                <rightLabel>Raúl Soto</rightLabel>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+            <preview>
+                <paradePreview>
+                    <image>http://mcbkairrulo.local/clarovideo-atv/images/dummy/movie1.png</image>
+                    <image>http://mcbkairrulo.local/clarovideo-atv/images/dummy/movie2.png</image>
+                    <image>http://mcbkairrulo.local/clarovideo-atv/images/dummy/movie3.png</image>
+                    <image>http://mcbkairrulo.local/clarovideo-atv/images/dummy/movie4.png</image>
+                    <image>http://mcbkairrulo.local/clarovideo-atv/images/dummy/movie5.png</image>
+                    <image>http://mcbkairrulo.local/clarovideo-atv/images/dummy/movie6.png</image>
+                    <image>http://mcbkairrulo.local/clarovideo-atv/images/dummy/movie7.png</image>
+                </paradePreview>
+            </preview>
+        </listWithPreview>
+    </body>
+</atv>
